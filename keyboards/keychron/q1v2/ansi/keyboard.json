@@ -3,6 +3,20 @@
         "pid": "0x0106",
         "device_version": "2.0.0"
     },
+    "customKeycodes": [
+    {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "Mission Control"},
+    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "Launch Pad"},
+    {"name": "Left Option", "title": "Left Option in macOS", "shortName": "Left Option"},
+    {"name": "Right Option", "title": "Right Option in macOS", "shortName": "Right Option"},
+    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "Left Command"},
+    {"name": "Right Cmd", "title": "Right Command in macOS", "shortName": "Right Command"},
+    {"name": "Task View", "title": "Task View in windows", "shortName": "Task View"},
+    {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"},
+    {"name": "Caps light Tab", "title": "Caps Lock light Tab toggle", "shortName": "Caps Tab"},
+    {"name": "Caps light alphas", "title": "Caps Lock light alphas toggle", "shortName": "Caps Alpha"},
+    {"name": "Fn light undef", "title": "Fn layer non-defined keys RGB toggle", "shortName": "Fn Undef"},
+    {"name": "Fn light def", "title": "Fn layer defined keys static color toggle", "shortName": "Fn Def"}
+  ],
     "layouts": {
         "LAYOUT_ansi_82": {
             "layout": [
