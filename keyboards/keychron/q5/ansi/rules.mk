@@ -1,4 +1,5 @@
-# custom matrix setup
-CUSTOM_MATRIX = lite
-
 SRC += matrix.c
+
+ifeq ($(strip $(RGB_MATRIX_ENABLE)), yes)
+    SRC += rgb_matrix_user.c
+endif
